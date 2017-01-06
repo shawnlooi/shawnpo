@@ -7,21 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-p {
-  font-family: Georgia; }
 
 a {
   text-decoration: none; }
-
-h1, h2, h3 {
-  font-family: "Roboto", sans-serif; }
 
 .nav li {
   list-style: none;
   display: inline-block;
   border-right: 1px solid #ccc;
   padding-right: 10px;
-  margin-right: 10px; }
+  margin-right: 10px; 
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 768px) {
   .page {
@@ -30,4 +27,15 @@ h1, h2, h3 {
     background: yellow;
     margin: 0 auto; } }
 
-@import 'variables';
+.main-wrapper .Position	{
+	color: #3F4650;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+
+.main-wrapper .company	{
+	margin-bottom: 10px:
+	color: #97AAC3;
+}
