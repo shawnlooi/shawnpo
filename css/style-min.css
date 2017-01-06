@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p	{
+	font-family: Georgia;
+}
+
+a 	{
+	text-decoration: none;
+	color: #000;
+}
+
+h1, h2, h3	{
+	font-family: "Roboto", sans-serif;
+}
+
+.nav li	{
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+	margin-right: 10px;
+}
